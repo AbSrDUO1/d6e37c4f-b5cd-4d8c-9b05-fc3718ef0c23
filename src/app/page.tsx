@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingInline from '@/components/navigation/NavbarLayoutFloatingInline';
 import TokenBillboardHero from '@/components/sections/layouts/hero/TokenBillboardHero';
@@ -12,7 +12,6 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
-          brand="MVP Wonders"
           navItems={[{ name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'How To Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' }]}
           buttonText="Get started"
         />
