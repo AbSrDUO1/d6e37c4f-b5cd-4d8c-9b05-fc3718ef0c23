@@ -46,10 +46,9 @@ export default function Home() {
         <FooterLogoEmphasis
           logoSrc="/images/logo.svg"
           logoAlt="MVP Wonders Logo"
-          columns={[{ items: [{ label: 'Home', onClick: () => {} }, { label: 'About', onClick: () => {} }] }, { items: [{ label: 'Tokenomics', onClick: () => {} }, { label: 'Contact', onClick: () => {} }] }]} 
+          columns={[{ items: [{ label: 'Home', onClick: () => {} }, { label: 'About', onClick: () => {} }] }, { items: [{ label: 'Tokenomics', onClick: () => {} }, { label: 'Contact', onClick: () => {} }] }]}
           logoText="MVP Wonders"
-          copyrightText="© 2023 MVP Wonders. All rights reserved."
-          onPrivacyClick={() => {}} 
+          onPrivacyClick={() => {}}
         />
       </div>
     </SiteThemeProvider>
