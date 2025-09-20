@@ -48,7 +48,6 @@ export default function Home() {
           logoAlt="MVP Wonders Logo"
           columns={[{ items: [{ label: 'Home', onClick: () => {} }, { label: 'About', onClick: () => {} }] }, { items: [{ label: 'Tokenomics', onClick: () => {} }, { label: 'Contact', onClick: () => {} }] }]}
           logoText="MVP Wonders"
-          onPrivacyClick={() => {}}
         />
       </div>
     </SiteThemeProvider>
